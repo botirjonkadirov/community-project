@@ -1,0 +1,21 @@
+.button {
+ padding: 1.8rem;
+ white-space: nowrap;
+ border-radius: 3.1rem;
+ text-align: center;
+ background-color: $primary-orange;
+ color: $white;
+ font-size: 1.6rem;
+ line-height: 1.06;
+ text-decoration: none;
+ font-weight: 600;
+ transition: opacity 0.3s ease;
+
+ &:hover {
+  opacity: 0.8;
+ }
+
+ &:active {
+  opacity: 0.6;
+ }
+}
