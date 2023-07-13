@@ -1,0 +1,314 @@
+////////////////////////////// HERO
+
+.hero {
+  padding-top: 9.2rem;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.hero__title--about {
+  font-family: $main-font-family;
+  color: $light-dark;
+  font-size: 6.4rem;
+  font-weight: 600;
+  line-height: 7.2rem;
+  letter-spacing: -1.92px;
+  padding-bottom: 2.4rem;
+}
+.hero__description--about {
+  font-family: $main-font-family;
+  color: $light-gray;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 5rem;
+}
+
+
+
+.hero__img {
+  position: relative;
+}
+.hero__img-text {
+  position: absolute;
+  top: 96%;
+  left: 91%;
+}
+
+//////////////////////////////// experience
+
+.experience {
+  padding-top: 13.4rem;
+  padding-bottom: 8.8rem;
+}
+.experience__container {
+  display: flex;
+  justify-content: space-between;
+  h2 {
+    color: $dark;
+    font-family: $main-font-family;
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+    letter-spacing: -1.08px;
+  }
+
+  p {
+    color: $light-dark;
+    font-family: $light-dark;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+}
+
+.awards {
+  padding-bottom: 12.8rem;
+}
+
+.awards__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.awards-wr {
+  h3 {
+    color: $primary-orange;
+    font-family: Inter;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 5rem;
+  }
+
+  h4 {
+    color: $dark;
+    font-family: $main-font-family;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 106.5%;
+    letter-spacing: -0.72px;
+    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
+  }
+
+  p {
+    color: $light-gray;
+    font-family: $main-font-family;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+  }
+}
+
+//////////////////////////////// identification {
+.identification {
+  padding-bottom: 9.6rem;
+}
+.identification__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.identification-content-wrapper {
+  h1 {
+    color: $dark;
+    font-family: $main-font-family;
+    font-size: $section-titles;
+    font-weight: $weight;
+    line-height: $section-titles-lh;
+    letter-spacing: -1.44px;
+    padding-bottom: 3.2rem;
+  }
+  p {
+    color: $light-gray;
+    font-family: $main-font-family;
+    font-size: $descriptions;
+    font-weight: 500;
+    line-height: $descriptions-lh;
+  }
+}
+
+
+//////////////////////////////// teamwork
+
+.teamwork {
+  padding-bottom: 12.8rem;
+}
+
+.teamwork-content-wr {
+  h1 {
+    color: $dark;
+    font-family: $main-font-family;
+    font-size: $section-titles;
+    font-weight: $weight;
+    line-height: $section-titles-lh;
+    letter-spacing: -1.44px;
+  }
+
+  p {
+    color: $light-gray;
+    font-family: $main-font-family;
+    font-size: $descriptions;
+    font-weight: 500;
+    line-height: $descriptions-lh;
+    padding-top: 2.7rem;
+    padding-bottom: 6.4rem;
+  }
+}
+.teamwork-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+//////////////////////////////// DREAMWORK
+
+.dreamwork {
+  padding-bottom: 12.8rem;
+}
+.dreamwork__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dreamwork-content-wr {
+  h1 {
+    color: $dark;
+    font-family: $main-font-family;
+    font-size: $section-titles;
+    font-weight: $weight;
+    line-height: $section-titles-lh;
+    letter-spacing: -1.44px;
+    text-transform: capitalize;
+    padding-bottom: 2.4rem;
+  }
+
+  p {
+    color: $light-gray;
+    font-family: $main-font-family;
+    font-size: $descriptions;
+    font-weight: 500;
+    line-height: $descriptions-lh;
+  }
+}
+.profile-wr {
+  display: flex;
+  padding-top: 4rem;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.profile__text-wr {
+  padding-left: 2.4rem;
+  h3 {
+    color: $dark-blue;
+    font-family: $main-font-family;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 171%;
+  }
+
+  p {
+    color: $primary-orange;
+    font-family: $main-font-family;
+    font-size: $descriptions;
+    font-weight: 500;
+    line-height: 171%;
+  }
+}
+
+.dreamwork-image-wr {
+  position: relative;
+}
+.dreamwork__inner {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+
+  p {
+    padding-left: 1.7rem;
+    color: $white;
+    font-family: Inter;
+    font-size: $descriptions;
+    font-weight: $weight;
+    line-height: 101.8%;
+    text-transform: capitalize;
+  }
+}
+
+//////////////////////////// NEWS
+
+.blog-and-news {
+  background: #dceaf5;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+
+.blog__container {
+  h1 {
+    padding-bottom: 6.4rem;
+  }
+}
+.blogs-wrapper {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+
+  h3 {
+    color: $dark;
+    font-family: $main-font-family;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    letter-spacing: -0.72px;
+    padding-top: 3.2rem;
+    padding-bottom: 1.6rem;
+    padding: 3.2rem 3.2rem 0 3.2rem;
+  }
+
+  p {
+    color: $light-gray;
+    font-family: $main-font-family;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    padding-bottom: 2.4rem;
+    padding-left: 3.2rem;
+    padding-top: 1.6rem;
+  }
+
+  span {
+    color: $primary-orange;
+    font-family: $main-font-family;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 106.5%;
+    padding-left: 3.2rem;
+    padding-top: 2.4rem;
+    a {
+      padding-bottom: 3.2rem;
+      color: $primary-orange;
+    }
+  }
+}
+.first-blog {
+  background-color: $white;
+  border-radius: 20px 20px 20px 20px;
+}
+.second-blog {
+  background-color: $white;
+  border-radius: 20px 20px 20px 20px;
+}
+.third-blog {
+  background-color: $white;
+  border-radius: 20px 20px 20px 20px;
+}
