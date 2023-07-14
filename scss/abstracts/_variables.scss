@@ -6,6 +6,7 @@ $light-dark: #1D3444;
 $dark: #0D1317;
 $white: #fff;
 $light-blue: #EDF7FF;
+$hero-bg-blue: #DCEAF5;
 $dark-blue: #063255;
 $hard-blue: #1d3444;
 $primary-dark: #394149;
@@ -14,20 +15,20 @@ $primary-dark: #394149;
 // FONTS
 $main-font-family:"Poppins", "Inter", sans-serif ;
 
-$header-titles: 10rem;
-$header-large-titles-lh: 1;
+$header-titles: 6.4rem;
+$header-large-titles-lh: 7.2rem;
 
 $section-titles: 4.8rem;
 $section-titles-lh: 5.6rem;
 
 $card-titles: 2.4rem;
-$card-titles: 106.5%;
+$card-titles-lh: 106.5%;
 
 $descriptions: 1.8rem;
 $descriptions-lh: 3rem;
 
 $body-small-txt: 1.6rem;
-$body-small-txt-lh: 106.5%;
+$body-small-txt-lh: 2.8rem;
 
 $weight: 600;
 
