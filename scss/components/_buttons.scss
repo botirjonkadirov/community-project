@@ -19,3 +19,17 @@
   opacity: 0.6;
  }
 }
+
+.site-header__button {
+ min-width: 17.3rem;
+ color: $primary-orange;
+ background-color: rgb(245, 138, 7, 0.1);
+ margin-left: 40px;
+}
+
+.footer-form__button {
+ border: 0;
+ cursor: pointer;
+ min-width: 15.7rem;
+ background-color: $primary-orange;
+}

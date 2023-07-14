@@ -2,6 +2,12 @@
 .site-footer {
  background-color: $dark-blue;
  color: $white;
+ background-color: $dark-blue;
+  color: $white;
+  background-image: url(.././images/footer-bg-left.svg),
+    url(.././images/footer-bg-right.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 0, right 0 top 15%;
 }
 
 .site-footer__container {
@@ -29,6 +35,7 @@
 
 .site-footer__title {
  font-size: 3.6rem;
+ line-height: 4.4rem;
  margin-bottom: 3.2rem;
 }
 
@@ -75,6 +82,7 @@
 }
 
 .footer-company__title {
+ margin-bottom: 2.4rem;
  font-size: 1.8rem;
  line-height: normal;
 }
@@ -130,6 +138,15 @@
  align-items: flex-start;
 }
 
+/* TITLE */
+.title {
+ letter-spacing: -3%;
+ font-weight: $weight;
+ font-family: $main-font-family;
+ margin-top: 0;
+ line-height: 1.22;
+}
+
 .footer-form__title {
  font-size: 1.8rem;
  margin-bottom: 2.4rem;
@@ -150,9 +167,10 @@
 }
 
 .footer-form__button {
- border: 0;
- cursor: pointer;
- min-width: 15.7rem;
+  border: 0;
+  cursor: pointer;
+  min-width: 15.7rem;
+  background-color: $primary-orange;
 }
 
 .site-footer__bottom {
